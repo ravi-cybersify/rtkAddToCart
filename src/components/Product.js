@@ -37,8 +37,9 @@ const Product = () => {
                 <div className="px-3 py-4">
                   <div className="font-bold text-xl mb-2">{item.title}</div>
                   <p className="text-gray-700 text-base font-semibold">
-                    Price: ₹ {item.price}
+                    Price: $ {item.price}
                   </p>
+                  <p>Rating: {item.rating.rate} ({item.rating.count} reviews)</p>
                   <p>{item.category}</p>
                 </div>
               </div>
