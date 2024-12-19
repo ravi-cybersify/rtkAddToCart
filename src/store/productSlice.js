@@ -25,3 +25,4 @@ export function getProducts(){
         dispatch(fetchProduct(response));
     }
 }
+
